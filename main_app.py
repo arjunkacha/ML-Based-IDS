@@ -1,9 +1,12 @@
 import streamlit as st
+from auth import require_login
 
 st.set_page_config(
     page_title="Hybrid IDS Project",
     layout="wide"
 )
+
+require_login()
 
 st.title("🛡️ Machine Learning-Based Hybrid Intrusion Detection System")
 st.sidebar.success("Select an analysis method above.")
