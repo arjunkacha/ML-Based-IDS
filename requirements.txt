@@ -1,4 +1,4 @@
-numpy==1.25.2
+numpy==1.26.4
 pandas==2.1.4
 matplotlib==3.8.2
 seaborn==0.13.0
@@ -11,3 +11,4 @@ psycopg2-binary==2.9.9
 SQLAlchemy==2.0.23
 passlib==1.7.4
 python-dotenv==1.0.0
+
